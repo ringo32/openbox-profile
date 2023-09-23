@@ -1,3 +1,3 @@
 #!/bin/sh
-export DESKTOP_SESSION=plasma && 
-exec startplasma-x11
+export DESKTOP_SESSION=openbox && 
+exec openbox

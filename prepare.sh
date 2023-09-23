@@ -15,7 +15,7 @@ get_pkg() {
     && sudo chown $USER:$USER "airootfs/root/packages/"*".pkg.tar"*
 }
 
-get_pkg "eos-settings-plasma"
+get_pkg "eos-skel-ce-openbox"
 
 # Build liveuser skel
 cd "airootfs/root/endeavouros-skel-liveuser"
